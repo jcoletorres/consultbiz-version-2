@@ -7,12 +7,12 @@ MAINCONTENT - Main Menu, Our Consulting Services, Our Portfolio, Our Pricing Pla
 ASIDE - SEO Quote
 FOOTER – Copyright, Support, About Us, Quick Contact
 Color Palette:
-		#88BFF1 - Even Lighter Blue
-		#1F87E4 - Light Blue
-		#23233A - Dark Blue
-		#18C852 - Grass Green
-		#F4F4F4	- Light Grey
-		#B4B5B6 - Dark Grey
+		#88BFF1 - Even Lighter blue
+		#1F87E4 - Light blue
+		#23233A - Dark blue
+		#18C852 - Grass green
+		#F4F4F4	- Light grey
+		#B4B5B6 - Dark grey
 		#0E151B - Black
 */
 body {
@@ -721,7 +721,7 @@ display: none;
 	background-color: #1F87E4;
 	border: none;
 	color: white;
-	margin: 301px 0 0 938px;
+	margin: 301px 0 0 927px;
 	padding: 12px 18px;
 	position: absolute;
 	text-decoration: none;
@@ -983,13 +983,16 @@ img[class*="pic"]{
 /*------------------------------------------*/
 .plan {
 	color: white;
-	border-radius: 5px;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 20px;
-	height: 25em;
+	display: flex;
 	justify-content: center;
-	padding: 2.5em 6em 5em 6em;
+	padding: 2.5em 5em 5em 5em;
+}
+div[class^="column"]{
+	border-radius: 3px;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 45px 50px;
+	align-items: center;
 }
 .column1 {
 	background-color: #18C852;
@@ -1000,6 +1003,33 @@ img[class*="pic"]{
 .column3 {
 	background-color: #1F87E4;
 }
+.plantitle {
+	font-size: 22px;
+	font-weight: lighter;
+	line-height: 1.5em;
+	text-align: center;
+}
+.plantitle > span {
+	font-size: 28px;
+	letter-spacing: 1px;
+	margin-right: -1px;
+}
+span.month {
+	font-size: 10px;
+	letter-spacing: 0;
+	margin: 0;
+}
+.list {
+	font-size: 12px;
+	margin: 2em 0 0 0;
+	padding: 0 1em;
+}
+.list li {
+	padding: 5px 0;
+}
+.column2 > ul {
+	padding-right: 0;
+}
 button[class^="purchase"] {
 	color: white;
 	border-color: white;
@@ -1008,26 +1038,7 @@ button[class^="purchase"] {
 	font-size: 10px;
 	height: 35px;
 	width: 13em;
-	margin: 4em 0 0 5.5em;
-}
-.plantitle {
-	font-size: 22px;
-	margin: 2.5em 0 0 2.5em;
-	position: absolute;
-	text-align: center;
-}
-span {
-	font-size: 30px;
-}
-span.month {
-	font-size: 10px;
-}
-.list {
-	font-size: 12px;
-	margin: 14em 0 0 1.3em;
-}
-.list li {
-	padding: 5px 0;
+	margin: 4em 0 0 15px;
 }
 .purchase1 {
 	background-color: #18C852;
@@ -1139,48 +1150,43 @@ h4 {
 /*------------------------------------------*/
 footer {
 	background-color: #0E151B;
-	display: grid;
-	grid-template-columns: repeat(1, 1fr);
-	grid-template-rows: repeat(4, 1fr);
+	display: block;
+	padding-top: 6em;
 }
 footer > h5 {
 	display: none;
 }
 footer > img {
-	margin: 0 0 0 27.5em;
+	position: absolute;
+	margin: 1em 0 0 6em;
 	height: 16px;
 	width: 105px;
 }
 footer > p {
 	color: #B4B5B6;
 	font-size: 12px;
-	position: inherit;
+	line-height: 20px;
+	margin: 50px 0 0 94px;
+	position: absolute;
 }
 footer > img + p {
-	grid-area: 1/1;
-	text-align: center;
-	margin: auto;
-	padding: 0;
+	display: block;
 }
 footer > ul {
+	display: inline-block;
 	color: #B4B5B6;
 	font-size: 12px;
-	text-align: center;
+	line-height: 15px;
 }
 .footnote1 {
-	grid-area: 2/1;
-	margin: auto;
-	padding: 0 0;
+	margin-left: 34em;
 }
 .footnote2 {
-	grid-area: 3/1;
-	margin: auto;
-	padding: 1em 0;
+	margin-left: 33px;
 }
 .footnote3 {
-	grid-area: 4/1;
-	margin: auto;
-	padding: 1em 0 1em 0;
+	margin-left: 25px;
+	padding-bottom: 4em;
 }
 footer > ul > li {
 	padding: 3px 0;
@@ -1195,7 +1201,6 @@ footer > p:last-child {
 	color: white;
 	display: flex;
 	justify-content: center;
-	grid-area: 5/1;
 	margin: auto;
 	padding: 2.5em;
 	position: relative;
@@ -1327,22 +1332,22 @@ display: none;
 }
 img[alt*="megaphone icon"] {
 	grid-area: 1/1;
-	margin-left: 118px;
+	margin-left: 96px;
 	width: 16%;
 }
 img[alt*="chat icon"] {
 	grid-area: 1/2;
-	margin-left: 119px;
+	margin-left: 95px;
 	width: 16%;
 }
 img[alt*="target icon"] {
 	grid-area: 4/1;
-	margin-left: 122px;
+	margin-left: 102px;
 	width: 16%;
 }
 img[alt*="lightbulb icon"] {
 	grid-area: 4/2;
-	margin-left: 126px;
+	margin-left: 101px;
 	width: 12%;
 }
 dt[class^="item"] {
@@ -1566,13 +1571,17 @@ img[class*="pic"]{
 /*------------------------------------------*/
 .plan {
 	color: white;
-	border-radius: 5px;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 5px;
-	height: 25em;
+	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
-	padding: 0 40px;
+	padding: 2.5em 5em 5em 5em;
+}
+div[class^="column"]{
+	border-radius: 3px;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 45px 50px;
+	align-items: center;
 }
 .column1 {
 	background-color: #18C852;
@@ -1583,6 +1592,33 @@ img[class*="pic"]{
 .column3 {
 	background-color: #1F87E4;
 }
+.plantitle {
+	font-size: 22px;
+	font-weight: lighter;
+	line-height: 1.5em;
+	text-align: center;
+}
+.plantitle > span {
+	font-size: 28px;
+	letter-spacing: 1px;
+	margin-right: -1px;
+}
+span.month {
+	font-size: 10px;
+	letter-spacing: 0;
+	margin: 0;
+}
+.list {
+	font-size: 12px;
+	margin: 2em 0 0 0;
+	padding: 0 1em;
+}
+.list li {
+	padding: 5px 0;
+}
+.column2 > ul {
+	padding-right: 0;
+}
 button[class^="purchase"] {
 	color: white;
 	border-color: white;
@@ -1591,26 +1627,7 @@ button[class^="purchase"] {
 	font-size: 10px;
 	height: 35px;
 	width: 13em;
-	margin: 4em 0 0 4.5em;
-}
-.plantitle {
-	font-size: 22px;
-	margin: 2.5em 0 0 2em;
-	position: absolute;
-	text-align: center;
-}
-span {
-	font-size: 30px;
-}
-span.month {
-	font-size: 10px;
-}
-.list {
-	font-size: 12px;
-	margin: 14em 0 0 1em;
-}
-.list li {
-	padding: 5px 0;
+	margin: 4em 0 0 15px;
 }
 .purchase1 {
 	background-color: #18C852;
