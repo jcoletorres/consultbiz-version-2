@@ -2919,12 +2919,12 @@ footer > h5 {
 }
 .logowhite {
 	position: absolute;
-	margin: 0 0 0 20.5em;
+	margin: 0 0 0 21em;
 	height: 16px;
 	width: 105px;
 }
 .socialmedia{
-	margin: 6em 0 0 20.5em;
+	margin: 6em 0 0 21em;
 	position: absolute;
 	cursor: pointer;
 	height: 16px;
@@ -3511,8 +3511,16 @@ footer {
 footer > h5 {
 	display: none;
 }
-footer > img {
+.logowhite {
+	position: absolute;
 	margin: 0 0 0 9.5em;
+	height: 16px;
+	width: 105px;
+}
+.socialmedia{
+	margin: 6em 0 0 9.5em;
+	position: absolute;
+	cursor: pointer;
 	height: 16px;
 	width: 105px;
 }
