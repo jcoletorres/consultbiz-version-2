@@ -16,7 +16,7 @@ Color Palette:
 		#0E151B - Black
 */
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Poppins", sans-serif;
 	max-width: 1200px;
 	margin: auto;
 }
@@ -36,13 +36,12 @@ button {
 }
 .description {
 	display: flex;
-	font-size: 12px;
-	font-weight: lighter;
+	font-size: 12px;;
 	line-height: 1.5em;
 	margin: auto;
 	padding: 15px 30px;
 	text-align: center;
-	width: 35%;
+	width: 39%;
 }
 /*-------------------------------------------*/
 /*------------Navigation Bar-----------------*/
@@ -87,22 +86,22 @@ display: none;
 .title {
 	color: #1F87E4;
 	font-size: 15px;
-	font-weight: lighter;
 	grid-area: 1 / 2;
-	margin: 185px 0 0 -770px;
+	margin: 185px 0 0 -780px;
 }
 .phrase {
-	font-size: 50px;
+	font-size: 44px;
 	grid-area: 1 / 2;
 	margin: 215px 10em 0 120px;
 	text-align: left;
-	width: 50%;
+	width: 55%;
+	line-height: 50px;
 }
 .text {
-	font-size: 14px;
+	font-size: 12px;
 	grid-area: 1 / 2;
 	line-height: 20px;
-	margin: 340px 0 0 120px;
+	margin: 335px 0 0 120px;
 	text-align: left;
 	width: 40%;
 }
@@ -112,12 +111,11 @@ display: none;
 	border-radius: 5px;
 	color: white;
 	font-size: 12px;
-	font-weight: lighter;
 	grid-area: 1 / 2;
 	width: 100px;
-	height: 10px;
+	height: 18px;
 	margin: 400px 0 0 120px;
-	padding: 16px 28px;
+	padding: 14px 28px;
 	text-decoration: none;
 }
 .leftarrow {
@@ -127,7 +125,7 @@ display: none;
 	justify-self: left;
 	align-self: center;
 	grid-area: 1/1;
-	margin-top: 301px;
+	margin-top: 261px;
 	padding: 12px 18px;
 	text-decoration: none;
 }
@@ -138,7 +136,7 @@ display: none;
 	justify-self: right;
 	align-self: center;
 	grid-area: 1/3;
-	margin: 301px 0 0 -54px;
+	margin: 261px 0 0 -54px;
 	padding: 12px 18px;
 	text-decoration: none;
 }
@@ -180,11 +178,10 @@ dt[class^="item"] {
 	text-align: center;
 }
 dd[class^="item"] {
-	font-weight: lighter;
 	font-size: 12px;
 	line-height: 1.5em;
 	margin: auto;
-	width: 60%;
+	width: 70%;
 }
 .item1 {
 	grid-area: 2 / 1;
@@ -243,14 +240,12 @@ img[class^="piggybank"] {
 }
 dd[class^="description"] {
 	font-size: 11px;
-	font-weight: lighter;
 	line-height: 18px;
 	text-align: center;
 }
 button[class^="read"] {
 	border-style: none;
 	font-size: 10px;
-	font-weight: lighter;
 	position: absolute;
 	height: 28px;
 	width: 9em;
@@ -416,7 +411,6 @@ div[class^="column"]{
 }
 .plantitle {
 	font-size: 22px;
-	font-weight: lighter;
 	line-height: 1.5em;
 	text-align: center;
 }
@@ -514,7 +508,7 @@ blockquote{
 	font-size: 12px;
 	line-height: 25px;
 	margin: auto;
-	padding: 0 34em;
+	padding: 0 32em;
 	text-align: center;
 }
 .seo {
@@ -549,7 +543,6 @@ h4 {
 }
 .blockcontainer > p {
 	font-size: 11px;
-	font-weight: lighter;
 	margin: 5px 0 0 116px;
 }
 .blockcontainer > button {
@@ -652,7 +645,7 @@ nav {
 .subnav {
 	display: flex;
 	flex-direction: row;
-	font-weight: lighter;
+
 	flex-wrap: nowrap;
 	justify-content: flex-end;
 	margin: 1em 0 0 28em;
@@ -679,7 +672,7 @@ display: none;
 .title {
 	color: #1F87E4;
 	font-size: 15px;
-	font-weight: lighter;
+
 
 	margin: 185px 0 0 182px;
 	position: absolute;
@@ -697,7 +690,7 @@ display: none;
 	color: black;
 	display: flex;
 	font-size: 14px;
-	font-weight: lighter;
+
 	margin: 325px 0 0 182px;
 	position: absolute;
 	text-align: left;
@@ -773,7 +766,7 @@ dt[class^="item"] {
 	text-align: center;
 }
 dd[class^="item"] {
-	font-weight: lighter;
+
 	font-size: 12px;
 	margin: auto;
 	width: 60%;
@@ -835,14 +828,14 @@ img[class^="piggybank"] {
 }
 dd[class^="description"] {
 	font-size: 11px;
-	font-weight: lighter;
+
 	line-height: 18px;
 	text-align: center;
 }
 button[class^="read"] {
 	border-style: none;
 	font-size: 10px;
-	font-weight: lighter;
+
 	position: absolute;
 	height: 28px;
 	width: 9em;
@@ -1008,7 +1001,7 @@ div[class^="column"]{
 }
 .plantitle {
 	font-size: 22px;
-	font-weight: lighter;
+
 	line-height: 1.5em;
 	text-align: center;
 }
@@ -1132,6 +1125,7 @@ blockquote{
 h4 {
 	color: white;
 	font-size: 23px;
+	font-weight: lighter;
 	margin: auto;
 	padding-bottom: 1em;
 }
@@ -1241,7 +1235,7 @@ nav {
 .subnav {
 	display: flex;
 	flex-direction: row;
-	font-weight: lighter;
+
 	flex-wrap: nowrap;
 	justify-content: flex-end;
 	margin: 1em 0 0 28em;
@@ -1268,7 +1262,7 @@ display: none;
 .title {
 	color: #1F87E4;
 	font-size: 15px;
-	font-weight: lighter;
+
 	margin: 185px 0 0 182px;
 	position: absolute;
 }
@@ -1285,7 +1279,7 @@ display: none;
 	color: black;
 	display: flex;
 	font-size: 14px;
-	font-weight: lighter;
+
 	margin: 325px 0 0 182px;
 	position: absolute;
 	text-align: left;
@@ -1359,7 +1353,7 @@ dt[class^="item"] {
 	text-align: center;
 }
 dd[class^="item"] {
-	font-weight: lighter;
+
 	font-size: 12px;
 	margin: auto;
 	width: 60%;
@@ -1421,14 +1415,14 @@ img[class^="piggybank"] {
 }
 dd[class^="description"] {
 	font-size: 11px;
-	font-weight: lighter;
+
 	line-height: 18px;
 	text-align: center;
 }
 button[class^="read"] {
 	border-style: none;
 	font-size: 10px;
-	font-weight: lighter;
+
 	position: absolute;
 	height: 28px;
 	width: 9em;
@@ -1594,7 +1588,7 @@ div[class^="column"]{
 }
 .plantitle {
 	font-size: 22px;
-	font-weight: lighter;
+
 	line-height: 1.5em;
 	text-align: center;
 }
@@ -1718,6 +1712,7 @@ blockquote{
 h4 {
 	color: white;
 	font-size: 23px;
+	font-weight: lighter;
 	margin: auto;
 	padding-bottom: 1em;
 }
@@ -1827,7 +1822,6 @@ nav {
 .subnav {
 	display: flex;
 	flex-direction: row;
-	font-weight: lighter;
 	flex-wrap: nowrap;
 	justify-content: flex-end;
 	margin: 1em 0 0 20em;
@@ -1854,7 +1848,6 @@ display: none;
 .title {
 	color: #1F87E4;
 	font-size: 15px;
-	font-weight: lighter;
 	margin: 185px 0 0 182px;
 	position: absolute;
 }
@@ -1865,17 +1858,16 @@ display: none;
 	margin: 215px 10em 0 183px;
 	position: absolute;
 	text-align: left;
-	width: 49%;
+	width: 65%;
 }
 .text {
 	color: black;
 	display: flex;
 	font-size: 14px;
-	font-weight: lighter;
-	margin: 325px 0 0 182px;
+	margin: 335px 0 0 182px;
 	position: absolute;
 	text-align: left;
-	width: 40%;
+	width: 65%;
 }
 .button {
 	background-color: #1F87E4;
@@ -1944,7 +1936,7 @@ dt[class^="item"] {
 	text-align: center;
 }
 dd[class^="item"] {
-	font-weight: lighter;
+
 	font-size: 12px;
 	margin: auto;
 	width: 60%;
@@ -2006,14 +1998,12 @@ img[class^="piggybank"] {
 }
 dd[class^="description"] {
 	font-size: 11px;
-	font-weight: lighter;
 	line-height: 18px;
 	text-align: center;
 }
 button[class^="read"] {
 	border-style: none;
 	font-size: 10px;
-	font-weight: lighter;
 	position: absolute;
 	height: 28px;
 	width: 9em;
@@ -2179,7 +2169,6 @@ div[class^="column"]{
 }
 .plantitle {
 	font-size: 22px;
-	font-weight: lighter;
 	line-height: 1.5em;
 	text-align: center;
 }
@@ -2303,6 +2292,7 @@ blockquote{
 h4 {
 	color: white;
 	font-size: 23px;
+	font-weight: lighter;
 	margin: auto;
 	padding-bottom: 1em;
 }
@@ -2396,6 +2386,10 @@ footer > p:last-child {
 /*------------------------------------------*/
 /*------------------------------------------*/
 @media only screen and (max-width: 768px) {
+
+	.description {
+		width: 60%;
+	}
 /*-------------------------------------------*/
 /*------------Navigation Bar-----------------*/
 /*-------------------------------------------*/
@@ -2413,7 +2407,6 @@ nav {
 .subnav {
 	display: flex;
 	flex-direction: row;
-	font-weight: lighter;
 	flex-wrap: nowrap;
 	justify-content: flex-end;
 	margin: 1em 0 0 17em;
@@ -2440,7 +2433,6 @@ display: none;
 .title {
 	color: #1F87E4;
 	font-size: 15px;
-	font-weight: lighter;
 	margin: 185px 0 0 182px;
 	position: absolute;
 }
@@ -2450,16 +2442,15 @@ display: none;
 	margin: 215px 10em 0 183px;
 	position: absolute;
 	text-align: left;
-	width: 60%;
+	width: 70%;
 }
 .text {
 	color: black;
 	font-size: 12px;
-	font-weight: lighter;
 	margin: 329px 0 0 182px;
 	position: absolute;
 	text-align: left;
-	width: 52%;
+	width: 60%;
 }
 .button {
 	background-color: #1F87E4;
@@ -2529,10 +2520,9 @@ dt[class^="item"] {
 	text-align: center;
 }
 dd[class^="item"] {
-	font-weight: lighter;
 	font-size: 12px;
 	margin: auto;
-	width: 60%;
+	width: 65%;
 }
 .item1 {
 	grid-area: 2 / 1;
@@ -2591,14 +2581,12 @@ img[class^="piggybank"] {
 }
 dd[class^="description"] {
 	font-size: 11px;
-	font-weight: lighter;
 	line-height: 18px;
 	text-align: center;
 }
 button[class^="read"] {
 	border-style: none;
 	font-size: 10px;
-	font-weight: lighter;
 	position: absolute;
 	height: 28px;
 	width: 9em;
@@ -2765,7 +2753,7 @@ div[class^="column"]{
 }
 .plantitle {
 	font-size: 22px;
-	font-weight: lighter;
+
 	line-height: 1.5em;
 	text-align: center;
 }
@@ -2889,6 +2877,7 @@ blockquote{
 h4 {
 	color: white;
 	font-size: 23px;
+	font-weight: lighter;
 	margin: auto;
 	padding-bottom: 1em;
 }
@@ -2989,7 +2978,7 @@ footer > p:last-child {
 /*------------------------------------------*/
 @media only screen and (max-width: 414px) {
 .description {
-	width: 70%;
+	width: 75%;
 }
 /*-------------------------------------------*/
 /*------------Navigation Bar-----------------*/
@@ -3008,14 +2997,13 @@ nav {
 .subnav {
 	display: flex;
 	flex-direction: row;
-	font-weight: lighter;
 	flex-wrap: nowrap;
 	margin: 5em 0 0 0em;
 	padding: 12px;
 }
 .subnav li {
-	font-size: 9px;
-	padding: 0 6px;
+	font-size: 10px;
+	padding: 0 4px;
 }
 /*------------------------------------------*/
 /*-----------Main Menu----------------------*/
@@ -3032,24 +3020,22 @@ display: none;
 .title {
 	color: #1F87E4;
 	font-size: 13px;
-	font-weight: lighter;
-	margin: 185px 0 0 90px;
+	margin: 155px 0 0 90px;
 	position: absolute;
 }
 .phrase {
 	color: black;
 	display: flex;
 	font-size: 35px;
-	margin: 212px 10em 0 89px;
+	margin: 172px 10em 0 89px;
 	position: absolute;
 	text-align: left;
-	width: 65%;
+	width: 70%;
 }
 .text {
 	color: black;
 	display: flex;
 	font-size: 12px;
-	font-weight: lighter;
 	margin: 330px 0 0 90px;
 	position: absolute;
 	text-align: left;
@@ -3061,7 +3047,7 @@ display: none;
 	border-radius: 5px;
 	color: white;
 	font-size: 12px;
-	margin: 410px 0 0 90px;
+	margin: 430px 0 0 90px;
 	padding: 14px 30px;
 	position: absolute;
 	text-decoration: none;
@@ -3099,22 +3085,22 @@ display: none;
 }
 img[alt*="megaphone icon"] {
 	grid-area: 1/1;
-	margin-left: 106px;
+	margin: 20px 0 0 106px;
 	width: 18%;
 }
 img[alt*="chat icon"] {
 	grid-area: 4/1;
-	margin-left: 110px;
+	margin: 15px 0 0 110px;
 	width: 18%;
 }
 img[alt*="target icon"] {
 	grid-area: 7/1;
-	margin-left: 112px;
+	margin: 10px 0 0 112px;
 	width: 18%;
 }
 img[alt*="lightbulb icon"] {
 	grid-area: 10/1;
-	margin-left: 116px;
+	margin: 10px 0 0 116px;
 	width: 14%;
 }
 dt[class^="item"] {
@@ -3122,10 +3108,9 @@ dt[class^="item"] {
 	text-align: center;
 }
 dd[class^="item"] {
-	font-weight: lighter;
 	font-size: 12px;
 	margin: auto;
-	width: 60%;
+	width: 65%;
 }
 .item1 {
 	grid-area: 2 / 1;
@@ -3184,14 +3169,12 @@ img[class^="piggybank"] {
 }
 dd[class^="description"] {
 	font-size: 11px;
-	font-weight: lighter;
 	line-height: 18px;
 	text-align: center;
 }
 button[class^="read"] {
 	border-style: none;
 	font-size: 10px;
-	font-weight: lighter;
 	position: absolute;
 	height: 28px;
 	width: 9em;
@@ -3358,7 +3341,6 @@ div[class^="column"]{
 }
 .plantitle {
 	font-size: 22px;
-	font-weight: lighter;
 	line-height: 1.5em;
 	text-align: center;
 }
@@ -3454,7 +3436,7 @@ span[class^="title"] {
 blockquote{
 	font-size: 12px;
 	margin: auto;
-	padding: 0 8em;
+	padding: 0 4em;
 	text-align: center;
 }
 .seo {
@@ -3582,6 +3564,10 @@ footer > p:last-child {
 /*------------------------------------------*/
 /*------------------------------------------*/
 @media only screen and (max-width: 375px) {
+
+.description {
+	width: 84%;
+}
 /*-------------------------------------------*/
 /*------------Navigation Bar-----------------*/
 /*-------------------------------------------*/
@@ -3599,13 +3585,12 @@ nav {
 .subnav {
 	display: flex;
 	flex-direction: row;
-	font-weight: lighter;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	margin: 5em 0 0 0em;
-	padding: 12px;
+	padding: 12px 0;
 }
 .subnav li {
-	font-size: 9px;
+	font-size: 10px;
 	padding: 0 3px;
 }
 /*------------------------------------------*/
@@ -3623,24 +3608,22 @@ display: none;
 .title {
 	color: #1F87E4;
 	font-size: 13px;
-	font-weight: lighter;
-	margin: 185px 0 0 63px;
+	margin: 145px 0 0 63px;
 	position: absolute;
 }
 .phrase {
 	color: black;
 	display: flex;
-	font-size: 35px;
-	margin: 212px 0 0 62px;
+	font-size: 33px;
+	margin: 172px 0 0 62px;
 	position: absolute;
 	text-align: left;
-	width: 65%;
+	width: 75%;
 }
 .text {
 	color: black;
 	display: flex;
 	font-size: 12px;
-	font-weight: lighter;
 	margin: 330px 0 0 62px;
 	position: absolute;
 	text-align: left;
@@ -3652,7 +3635,7 @@ display: none;
 	border-radius: 5px;
 	color: white;
 	font-size: 12px;
-	margin: 410px 0 0 62px;
+	margin: 440px 0 0 62px;
 	padding: 14px 30px;
 	position: absolute;
 	text-decoration: none;
@@ -3689,7 +3672,7 @@ display: none;
 }
 img[alt*="megaphone icon"] {
 	grid-area: 1/1;
-	margin: 10px 0 0 118px;
+	margin: 10px 0 0 106px;
 	width: 18%;
 }
 img[alt*="chat icon"] {
@@ -3713,10 +3696,9 @@ dt[class^="item"] {
 	text-align: center;
 }
 dd[class^="item"] {
-	font-weight: lighter;
 	font-size: 12px;
 	margin: auto;
-	width: 60%;
+	width: 70%;
 }
 .item1 {
 	grid-area: 2 / 1;
@@ -3775,14 +3757,12 @@ img[class^="piggybank"] {
 }
 dd[class^="description"] {
 	font-size: 11px;
-	font-weight: lighter;
 	line-height: 18px;
 	text-align: center;
 }
 button[class^="read"] {
 	border-style: none;
 	font-size: 10px;
-	font-weight: lighter;
 	position: absolute;
 	height: 28px;
 	width: 9em;
@@ -3949,7 +3929,6 @@ div[class^="column"]{
 }
 .plantitle {
 	font-size: 22px;
-	font-weight: lighter;
 	line-height: 1.5em;
 	text-align: center;
 }
@@ -4190,7 +4169,6 @@ nav {
 .subnav {
 	display: flex;
 	flex-direction: row;
-	font-weight: lighter;
 	flex-wrap: wrap;
 	margin: 5em 0 0 -1em;
 	padding: 12px;
@@ -4214,7 +4192,6 @@ display: none;
 .title {
 	color: #1F87E4;
 	font-size: 13px;
-	font-weight: lighter;
 	margin: 175px 0 0 63px;
 	position: absolute;
 }
@@ -4231,7 +4208,6 @@ display: none;
 	color: black;
 	display: flex;
 	font-size: 12px;
-	font-weight: lighter;
 	margin: 330px 0 0 62px;
 	position: absolute;
 	text-align: left;
@@ -4305,7 +4281,6 @@ dt[class^="item"] {
 	text-align: center;
 }
 dd[class^="item"] {
-	font-weight: lighter;
 	font-size: 12px;
 	margin: auto;
 	width: 60%;
@@ -4367,14 +4342,12 @@ img[class^="piggybank"] {
 }
 dd[class^="description"] {
 	font-size: 11px;
-	font-weight: lighter;
 	line-height: 18px;
 	text-align: center;
 }
 button[class^="read"] {
 	border-style: none;
 	font-size: 10px;
-	font-weight: lighter;
 	position: absolute;
 	height: 28px;
 	width: 9em;
@@ -4541,7 +4514,6 @@ div[class^="column"]{
 }
 .plantitle {
 	font-size: 22px;
-	font-weight: lighter;
 	line-height: 1.5em;
 	text-align: center;
 }
