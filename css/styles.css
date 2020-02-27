@@ -68,7 +68,6 @@ nav {
 	font-size: 10px;
 	padding: 0 12px;
 }
-<<<<<<< HEAD
 .subnav li a:hover {
     color: red;
     cursor: pointer;
@@ -79,9 +78,6 @@ li a {
 	text-decoration: none;
 }
 li a:visited {
-=======
-.subnav li a:visited {
->>>>>>> b6145ea3a323a5d9dc1a28e15815056ec401944d
 		color: black;
 		cursor: pointer;
 		text-decoration: none;
